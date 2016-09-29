@@ -1,5 +1,6 @@
 console.log('Loaded!');
-var img = document.getElementById("pici");
+
+var img = document.getElementById('pici');
 var marginLeft = 0;
 function moveLeft(){
     magrinLeft = marginLeft +50;
