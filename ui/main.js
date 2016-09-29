@@ -8,7 +8,7 @@ var marginLeft = 0;
 function moveLeft(){
     marginLeft = marginLeft + 10;
     img.style.marginLeft = marginLeft + 'px';
-    console.log(magrinLeft);
+    console.log(marginLeft);
 }
 
 img.onclick = function(){
