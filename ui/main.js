@@ -6,7 +6,7 @@ var img = document.getElementById('pici');
 var marginLeft = 0;
 
 function moveLeft(){
-    magrinLeft = marginLeft + 10;
+    marginLeft = marginLeft + 10;
     img.style.marginLeft = marginLeft + 'px';
     console.log(magrinLeft);
 }
