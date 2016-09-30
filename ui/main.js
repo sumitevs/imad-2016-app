@@ -1,17 +1,10 @@
-console.log('Loaded!');
-
-
-var img = document.getElementById('pici');
-
-var marginLeft = 0;
-
-function moveLeft(){
-    marginLeft = marginLeft + 10;
-    img.style.marginLeft = marginLeft + 'px';
-    console.log(marginLeft);
-}
-
-img.onclick = function(){
-    var interval = setInterval(moveLeft,100);
-    console.log('clicked!');
+//counter
+var button =  document.getElementById("counter");
+var counter = 0;
+var span = document.getElementById("count");
+button.onclick = function(){
+    
+    
+    counter = counter +1;
+    span.innerHTML= counter.toString();
 }
